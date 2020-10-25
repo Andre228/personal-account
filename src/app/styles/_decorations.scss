@@ -1,0 +1,48 @@
+@import "colors";
+
+$heightRowSection: 30px;
+$heightMarginTop: calc(#{$heightRowSection}/2);
+
+.c-p {
+  cursor: pointer;
+}
+
+.bg-slb {
+  background-color: $colorSuperLightBlue;
+}
+
+.row-section {
+  height: $heightRowSection;
+}
+
+.pen {
+  position: relative;
+  margin-top: calc(#{$heightRowSection} - #{$heightMarginTop});
+  margin-left: -60px;
+  display: none;
+  transition: .3s;
+}
+
+.trash {
+  position: relative;
+  margin-top: calc(#{$heightRowSection} - #{$heightMarginTop});
+  margin-left: -40px;
+  display: none;
+  transition: .3s;
+}
+
+.row-section:hover .trash {
+  display: block;
+}
+
+.row-section:hover .pen {
+  display: block;
+}
+
+.trash:hover {
+  transform: scale(1.2);
+}
+
+.pen:hover {
+  transform: scale(1.2);
+}
