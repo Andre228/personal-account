@@ -1,6 +1,44 @@
 # PersonalAccount
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+
+
+To run this application, you need to go to the folder with the project and execute the commands one by one:
+
+## Step 1
+
+Run command `npm install -g json-server` it doesn't matter where you run this command from here json-server will be installed globally
+
+## Step 2
+
+Run command `npm install bootstrap`
+
+## Step 3
+
+Run command `npm install ngx-bootstrap --save`
+
+## Step 4
+
+Run command `npm install ngx-bootstrap-spinner --save`
+
+## Step 5
+
+Enter command `json-server db.json` enter the command and press enter on your keyboard
+
+## Step 6
+
+Enter command `npm run start` enter the command and press enter on your keyboard
+
+## Step 7
+
+Go to the browser address [localhost](http://localhost:4200/) - `http://localhost:4200/`
+
+## Step 8
+
+In the login window enter the following `john89` - login, `sPdg25bfAA` - password
+or `bubaBB123` - login, `fbiVO3432mnbd` - password 
+or `Aron666` - login, `aro1980A` - password or create your user in a file `db.json`
+
 
 ## Development server
 
